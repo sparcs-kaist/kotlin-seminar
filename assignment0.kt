@@ -19,6 +19,29 @@ fun main() {
 
     // Task 8: Define a function that takes two integers and returns their sum
     // Call the function and print the result
+    println("Sum: " + sum(5, 10)) // Example call
+
+    // Task 9: Implement an interface and use it
+    val myDog = Dog("Buddy")
+    myDog.makeSound()
+    val myCat = Cat("Mate")
+    myCat.makeSound()
 }
 
-// Define the sum function here
+// Task 8: Define the sum function
+fun sum(a: Int, b: Int): Int {
+    // Implement this function
+    return 0
+}
+
+// Task 9: Predefined interface
+interface Animal {
+    fun makeSound()
+}
+
+// Implement the interface in a class
+class Dog(private val name: String) : Animal {
+    override fun makeSound() {
+        // Implement this method
+    }
+}
