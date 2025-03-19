@@ -45,3 +45,23 @@ class Dog(private val name: String) : Animal {
         // Implement this method
     }
 }
+
+
+/* EXPECTED RESULT: 
+Name: Soongyu, Age: 21, Pi: 3.14159
+Fruits: [Apple, Banana, Cherry]
+Numbers: [10, 20, 30]
+7 is odd
+Start of the week!
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Countdown: 3
+Countdown: 2
+Countdown: 1
+Sum: 15
+Buddy says: Woof! Woof!
+Mate says: Meow! Meow!
+*/
